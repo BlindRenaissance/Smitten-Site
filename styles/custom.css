@@ -1,0 +1,11 @@
+/* Start Custom CSS from Blind Renaissance */
+
+/* Pink Hover */
+.tweak-header-primary-nav-hover-style-spotlight .Header-nav:hover .Header-nav-item:hover{
+  color: #e41569;
+}
+
+/* Whiten Off-white Slideshow */
+.sqs-gallery-block-slideshow{
+      background-color: rgba(175,175,175,0);
+}
