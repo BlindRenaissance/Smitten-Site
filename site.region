@@ -81,7 +81,7 @@
         </div>
       </header>
 
-      <div #spaceForHeader>
+      <div id="spaceForHeader">
       </div>
 
       <div class="Site-inner{.equal? collection.typeName "index"} Site-inner--index{.end}"{.equal? collection.typeName "index"}{.section collection}{.section collections.0}{.equal? typeName "page"}{.background-source-video?} data-controller="HeaderOverlay"{.or}{.section mainImage} data-controller="HeaderOverlay"{.end}{.end}{.end}{.equal? typeName "gallery"} data-controller="HeaderOverlay"{.end}{.end}{.end}{.or}{.if item}{.or}{.section collection}{.background-source-video?} data-controller="HeaderOverlay"{.or}{.section mainImage} data-controller="HeaderOverlay"{.end}{.end}{.end}{.end}{.end}>
