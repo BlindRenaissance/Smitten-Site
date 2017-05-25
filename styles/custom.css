@@ -170,3 +170,18 @@
   display: block;
   background-color:rgba(255, 255, 255, 1.00);
 }
+
+.loaded {
+	-webkit-animation: animLoadedHeader 1s cubic-bezier(0.7,0,0.3,1) forwards; 
+	animation: animLoadedHeader 1s cubic-bezier(0.7,0,0.3,1) forwards;
+  -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+  animation-delay: 2s;
+}
+
+@-webkit-keyframes animLoadedHeader {
+	to { -webkit-transform: translate3d(0,-100%,0); }
+}
+
+@keyframes animLoadedHeader {
+	to { -webkit-transform: translate3d(0,-100%,0); transform: translate3d(0,-100%,0); }
+}
