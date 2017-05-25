@@ -64,7 +64,7 @@
 </script>
 
 <body style="margin:0px;" style="z-index:10000;">
-    <div id="animation_container" class="swipeOut">
+    <div id="animation_container">
         <canvas id="canvas" width="550" height="400" </canvas>
             <div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:550px; height:400px; position: absolute; left: 0px; top: 0px; display: block;">
             </div>
@@ -76,6 +76,10 @@
         init();
         pageTimer();
     }
+
+    window.onload = function() {
+        document.getElementById('animation_container').className = 'swipeOut';
+    };
 </script>
 
 <script>
