@@ -75,11 +75,8 @@
     window.onload = function() {
         init();
         pageTimer();
+        removePreload();
     }
-
-    window.onload = function() {
-        document.getElementById('animation_container').className = 'swipeOut';
-    };
 </script>
 
 <script>
@@ -92,5 +89,9 @@ function pageTimer() {
 function showPage() {
   document.getElementById("animation_container").style.display = "none";
   //document.getElementById("myDiv").style.display = "block";
+}
+
+function removePreload() {
+  document.getElementById('animation_container').className = 'swipeOut';
 }
 </script>
