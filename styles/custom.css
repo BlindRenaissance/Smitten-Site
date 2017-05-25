@@ -174,8 +174,8 @@
 .swipeOut {
 	-webkit-animation: animLoadedHeader 1s cubic-bezier(0.7,0,0.3,1) forwards;
 	animation: animLoadedHeader 1s cubic-bezier(0.7,0,0.3,1) forwards;
-  -webkit-animation-delay: 8s; /* Safari 4.0 - 8.0 */
-  animation-delay: 8s;
+  -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+  animation-delay: 2s;
 }
 
 @-webkit-keyframes animLoadedHeader {

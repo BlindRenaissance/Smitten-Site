@@ -72,7 +72,7 @@
     </script>
 
     <body style="margin:0px;" style="z-index:10000;">
-        <div id="animation_container" class="swipeOut">
+        <div id="animation_container">
             <canvas id="canvas" width="550" height="400" </canvas>
                 <div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:550px; height:400px; position: absolute; left: 0px; top: 0px; display: block;">
                 </div>
@@ -83,6 +83,7 @@
         window.onload = function() {
             init();
             pageTimer();
+            removePreload();
         }
     </script>
 
@@ -97,7 +98,13 @@
       document.getElementById("animation_container").style.display = "none";
       //document.getElementById("myDiv").style.display = "block";
     }
+
+    function removePreload() {
+      document.getElementById('animation_container').className = 'swipeOut';
+    }
     </script>
+    <!-- End Preload Code -->
+
 
   </head>
   <body id="{squarespace.page-id}" class="{squarespace.page-classes} sqs-has-custom-cart{.if website.logoImageUrl} has-logo-image{.or} has-site-title{.end}{.if website.siteTagLine} has-tagline{.end}{.if website.socialAccounts.0} has-social{.end}{.if showCart} has-cart{.end}{.if item}{.or}{.equal? collection.typeName "index"}{.section collection}{.repeated section collections}{.background-source-video?} has-parallax-images{.or}{.section mainImage} has-parallax-images{.end}{.end}{.end}{.end}{.or}{.section collection}{.background-source-video?} has-parallax-images{.or}{.section mainImage} has-parallax-images{.end}{.end}{.end}{.end}{.end} enable-load-effects<squarespace:navigation navigationId="mainNavigation">{.if items.0} has-primary-nav{.end}</squarespace:navigation><squarespace:navigation navigationId="secondaryNavigation">{.if items.0} has-secondary-nav{.end}</squarespace:navigation><squarespace:navigation navigationId="footerMainNavigation">{.if items.0} has-footer-nav{.end}</squarespace:navigation>{.equal? collection.typeName "index"}{.section collection}{.section collections.0}{.equal? typeName "gallery"} has-index-gallery-first{.end}{.end}{.end}{.end}" data-controller="HashManager, SiteLoader, MobileClassname">
