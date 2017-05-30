@@ -132,8 +132,13 @@
   }
   /* Anchor Social Media */
   @media screen and (max-width: 919px) {
-      #twitter-icon, #facebook-icon{
+      #facebook-icon{
         position: absolute;
+        top: 0px;
+      }
+      #twitter-icon{
+        position: absolute;
+        top: 34px;
       }
   }
   /* Mobile Header */
