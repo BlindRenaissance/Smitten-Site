@@ -9,7 +9,7 @@
     <div style="margin:0px;" style="z-index:10000;">
         <div id="animation_container">
             <div id="canvas" width="100%">
-                  <img src="https://smittenapples.squarespace.com/s/Smitten-XX_1.gif" class="xx-gif">
+                  <img src="https://smittenapples.squarespace.com/s/Smitten-XX.gif" class="xx-gif">
             </div>
         </div>
     </div>
