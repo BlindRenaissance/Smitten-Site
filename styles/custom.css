@@ -124,14 +124,14 @@
 
 /* Mobile Styling */
   /* spaceForHeader */
-  @media screen and (min-width: 920px) {
+  @media screen and (min-width: 919px) {
       #spaceForHeader {
           height: 95px;
           width: 100%
       }
   }
   /* Anchor Social Media */
-  @media screen and (max-width: 920px) {
+  @media screen and (max-width: 919px) {
       #twitter-icon, #facebook-icon{
         position: absolute;
       }
