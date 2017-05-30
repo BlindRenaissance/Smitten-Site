@@ -124,7 +124,7 @@
 
 /* Mobile Styling */
   /* spaceForHeader */
-  @media screen and (min-width: 919px) {
+  @media screen and (min-width: 920px) {
       #spaceForHeader {
           height: 95px;
           width: 100%
