@@ -1,5 +1,13 @@
 /* Start Custom CSS from Blind Renaissance */
 
+/* Google Translate */
+#google_translate_element{
+  position: fixed;
+  bottom: -25px;
+  right: -25px;
+  z-index: 10;
+}
+
 /* Pink Hover */
 .tweak-header-primary-nav-hover-style-spotlight .Header-nav:hover .Header-nav-item:hover{
   color: #e41569;
@@ -96,8 +104,10 @@
         opacity: 1;
     }
 
-/* Home Index Gaps */
-    #marketing-gap-1 .Index-page-content, #marketing-gap-2 .Index-page-content, #gap-1 .Index-page-content,
+/* Index Gaps */
+    #marketing-gap-1 .Index-page-content,
+    #marketing-gap-2 .Index-page-content,
+    #gap-1 .Index-page-content,
     #gap-2 .Index-page-content {
         padding: 30px 10px 10px 10px;
     }
@@ -159,6 +169,11 @@
   }
 
 /* Preloader */
+.xx-gif{
+  max-width:1000px;
+  width:100%;
+}
+
 #animation_container{
   position:fixed;
   margin:auto;
