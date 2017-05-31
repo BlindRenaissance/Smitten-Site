@@ -97,12 +97,15 @@
     }
 
 /* Home Index Gaps */
-    #gap-1 .Index-page-content,
+    #marketing-gap-1 .Index-page-content, #marketing-gap-2 .Index-page-content, #gap-1 .Index-page-content,
     #gap-2 .Index-page-content {
         padding: 30px 10px 10px 10px;
     }
 
 /* Gap Shaddow */
+    #marketing,
+    #branding-guidelines,
+    #advertising-materials,
     #introduction,
     #flavor-profile,
     #video,
