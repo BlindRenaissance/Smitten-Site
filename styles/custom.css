@@ -209,24 +209,3 @@
 @keyframes animLoadedHeader {
 	to { -webkit-transform: translate3d(0,-100%,0); transform: translate3d(0,-100%,0); }
 }
-
-/* Footer Formatting & Social Media Icons */
-#footerBlocksTop{
-  display:none;
-}
-#footerBlocksBottom{
-  display:none;
-}
-#footer{
-  font-size: 16px;
-}
-#block-yui_3_17_2_3_1496769521482_7425{
-  padding-bottom:0;
-}
-#Smitten-SM-Icons{
-  display:flex;
-  justify-content:center;
-}
-.SM-Icon{
-  padding: 0 20px;
-}
