@@ -39,13 +39,33 @@
             /* align vertival-top */
         }
     }
-    #block-yui_3_17_2_2_1495560406897_220240, #block-yui_3_17_2_2_1495560406897_224584,
     #block-yui_3_17_2_2_1495560406897_179613 {
         padding: 0!important;
     }
-    #block-yui_3_17_2_2_1495485993753_106612,
-    #block-yui_3_17_2_2_1495485993753_81123,
-    #block-yui_3_17_2_2_1495560406897_230028,
+    #block-yui_3_17_2_2_1495560406897_220240 {
+        padding: 0!important;
+    }
+    #block-yui_3_17_2_2_1495560406897_224584 {
+        padding: 0!important;
+    }
+    #block-yui_3_17_2_2_1495485993753_106612 {
+        height: 92px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #block-yui_3_17_2_2_1495485993753_81123 {
+        height: 92px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #block-yui_3_17_2_2_1495560406897_230028 {
+        height: 92px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     #block-yui_3_17_2_2_1495560406897_247355 {
         height: 92px;
         display: flex;
@@ -190,7 +210,10 @@
 }
 
 /* Footer Formatting & Social Media Icons */
-#footerBlocksTop, #footerBlocksBottom{
+#footerBlocksTop{
+  display:none;
+}
+#footerBlocksBottom{
   display:none;
 }
 #footer{
